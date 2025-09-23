@@ -9,15 +9,27 @@
             border-collapse: collapse;
             border-width: 2px;
             border-style: solid;
-            background-color:rgb(230, 225, 155);
+            background-color:rgb(255, 227, 150);
             text-align: center;
             font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            box-shadow: 0 0 20px rgba(116, 116, 116, 0.9);
+            margin-left: auto;
+            margin-right: auto;
         }
         .tr1 {
             background-color: rgb(127, 236, 255);
         }
         .td1 {
             background-color: rgb(167, 255, 133);
+        }
+        th {
+            padding: 5px;
+        }
+        td {
+            padding: 5px;
+        }
+        body {
+            background-image: linear-gradient(to right, #a0d2eb, #27d3a5);
         }
     </style>
 </head>
@@ -26,11 +38,14 @@
         <table border="1"> <!--Colocar 4 videos de cada tema y otros multimedias-->
             <thead>
                 <tr class="tr1">
-                    <th colspan="4">
+                    <th colspan="5">
                         Mis Hobbys
                     </th>
                 </tr>
                 <tr>
+                    <th>
+                        <!--Dejar en blanco por diseño-->
+                    </th>
                     <th>
                         Video de YouTube
                     </th>
@@ -47,24 +62,41 @@
             </thead>
             <tbody>
                 <tr>
-                    <td><!--COCINA-->
-                        <!--colocar video de youtube sobre recetas de pescado-->
-                        
-                    </td><!--DEPORTES-->
                     <td>
-
+                        COCINA
                     </td>
-                    <td> <!--Lectura-->
-                        
+                    <td>
+                        <iframe width="180" height="100" src="https://www.youtube.com/embed/jzvpxzghNJg?si=q6DZZMA8BtBVASfj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </td>
-                    <td> <!--videojuegos-->
-                        <img src="Imagenes/ProjectZomboid.jpeg" alt="Project Zomboid" height="200" width="180">
+                </tr>
+                <tr>
+                    <td>
+                        LECTURA
                     </td>
-
+                    <td>
+                        <iframe width="180" height="100" src="https://www.youtube.com/embed/lAG3dX177vQ?si=cboLmNq2hf1uEoal" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        DEPORTES
+                    </td>
+                    <td>
+                        <iframe width="180" height="110" src="https://www.youtube.com/embed/en3VGUWKaYI?si=WqGuOvYi9YnUbA1V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        VIDEOJUEGOS
+                    </td>
+                    <td>
+                        <iframe width="180" height="100" src="https://www.youtube.com/embed/xoSU41ymiIg?si=hboKioBFyTYGaJkj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </td>
+                </tr>
             </tbody>
             <tfoot>
                 <tr>
-                    <td colspan="4" class="td1">
+                    <td colspan="5" class="td1">
                         Juan Emilio Gutierrez Garcia - 14/05/2007
                     </td>
                 </tr>
