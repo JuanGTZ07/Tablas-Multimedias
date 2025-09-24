@@ -9,27 +9,93 @@
             background-image: linear-gradient(to right, #a0d2eb, #27d3a5);
         }
         p {
-            text-align: center;
-            size: 10px;
+             text-align: center;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            size: 10px;
+        }
+        table {
+            border: grey;
+            border-collapse: collapse;
+            background-color:rgb(254, 245, 233);
+        }
+        th {
+            padding: 15px;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            size: 15px;
+        }
+        td {
+            padding: 15px;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            size: 10px;
+        }
+        .table1 {
+            margin-left: 70px;
+            margin-top: 30px;
+            margin-right: 790px;
+        }
+        .table2 {
+            margin-left: 790px;
+            margin-top: 30px;
+            margin-right: 70px;
+        }
+        #imagen1 {
+            height: 270px;
+            width: 310px;
+            float: left;
+        }
+        #contenido {
+            display: inline-block;
         }
     </style>
     <p> <a href="index.html">Regresar a la pagina anterior</a></p>
 </head>
-<body>
-    <p> Mis deportes favoritos son el automovilismo y en parte el football.</p>
-    <p> El año pasado en octubre atendi con mi padre el Grand Prix de los Estados Unidos en Austin</p>
-    <p> Los siguientes son las mejores imagenes y videos que tome</p>
-    <div style="text-align: center;">
-        <img src="Imagenes/F1_2.jpg" alt="Formula 1" height="280" width="140">
-        <img src="Imagenes/F1Porsche.jpg" alt="Formula 1" height="280" width="140">
-        <br>
-        <video src="Imagenes/F1Porsche1.mp4" controls height="280" width="140"></video>
-        <video src="Imagenes/F1Porsche2.mp4" controls height="280" width="140"></video>
-        <video src="Imagenes/F1Video1.mp4" controls height="280" width="140"></video>
-        <br>
-        <br>
-        <img src="Imagenes/F1_3.jpg" alt="Formula 1" height="150" width="290">
+<body>  
+    <div id="contenido">
+        <div id="tabla1">
+            <table class="table1">
+                <thead>
+                    <tr>
+                        <th>
+                            Football y Automovilismo 
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Cuando era niño me gustaba mucho el football, lo solia ver con mi papa casi muchos fines de semana mientras preparaba la carne asada, en primaria entre al equipo escolar de football, y aunque no fui para nada bueno, me divertia y hacia ejercicio, cuando tenia unos 8 o 9 años atendi un partido de los Tigres en el estadio universitario con mi papa y sus compañeros de trabajo.
+                            <br>
+                            Poco a poco me empece a alejar del football, deje de practicarlo y poco despues de verlo, pero nunca me dejo de gustar y muy de vez en cuando jugaba con mis amigos o mi papa.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <img src="Imagenes/Football.jpg" alt="Partido tigres" id="imagen1">
+        </div>
+        <div id="tabla2">
+            <table class="table2">
+                <thead>
+                    <tr>
+                        <th>
+                            Formula 1 y Extras
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            En pandemia me empezo a gustar el tenis, practicarlo mas que nada, mi papa construyo unas raquetas de madera para jugar y poco despues me compraron raquetas de verdad, pero deje de practicarlo por que no tenia con quien jugarlo.
+                            <br>
+                            Mas reciente en estos ultimos años el automovilismo me empezo a gustar, en especial la Formula 1 y WEC, mi papa y yo compramos la subscripcion a F1TV para ver las carreras en vivo y tener acceso a todo el contenido. En octubre del 2024 atendi el USGP en Austin los 3 dias con mi papa.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 </body>
 </html>
