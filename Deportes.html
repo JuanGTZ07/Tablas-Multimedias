@@ -14,9 +14,10 @@
             size: 10px;
         }
         table {
-            border: grey;
             border-collapse: collapse;
             background-color:rgb(254, 245, 233);
+            box-shadow: 0 0 20px rgba(21, 21, 21, 0.9);
+            transition: transform .6s;
         }
         th {
             padding: 15px;
@@ -31,34 +32,36 @@
             size: 10px;
         }
         .table1 {
-            margin-left: 70px;
+            margin-left: 400px;
             margin-top: 30px;
-            margin-right: 790px;
+            margin-right: 400px;
+            border-color: black;
+            border:15px;
         }
         .table2 {
-            margin-left: 790px;
-            margin-top: 30px;
-            margin-right: 70px;
+            margin-top: 100px;
         }
         #imagen1 {
             height: 270px;
             width: 310px;
-            float: left;
         }
-        #contenido {
-            display: inline-block;
+        table:hover {
+            transform: scale(1.05);
+        }
+        .table2:hover {
+            transform: scale(1.005);
         }
     </style>
     <p> <a href="index.html">Regresar a la pagina anterior</a></p>
 </head>
 <body>  
-    <div id="contenido">
-        <div id="tabla1">
-            <table class="table1">
+    <div>
+        <div>
+            <table border="1"class="table1">
                 <thead>
                     <tr>
-                        <th>
-                            Football y Automovilismo 
+                        <th colspan="2">
+                            Football 
                         </th>
                     </tr>
                 </thead>
@@ -69,24 +72,35 @@
                             <br>
                             Poco a poco me empece a alejar del football, deje de practicarlo y poco despues de verlo, pero nunca me dejo de gustar y muy de vez en cuando jugaba con mis amigos o mi papa.
                         </td>
+                        <td>
+                            <img src="Imagenes/Football.jpg" alt="Partido tigres" id="imagen1">
+                        </td>
                     </tr>
                 </tbody>
             </table>
         </div>
         <div>
-            <img src="Imagenes/Football.jpg" alt="Partido tigres" id="imagen1">
         </div>
-        <div id="tabla2">
-            <table class="table2">
+        <div>
+            <table border="1"class="table2">
                 <thead>
                     <tr>
-                        <th>
+                        <th colspan="2">
                             Formula 1 y Extras
                         </th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
+                        <td id="td1">
+                            <img src="Imagenes/F1_2.jpg" alt="Formula 1" height="380" width="170">
+                            <img src="Imagenes/F1Porsche.jpg" alt="Porshce NA Cup" height="380" width="170">
+                            <video src="Imagenes/F1Video1.mp4" controls height="380" width="170"></video>
+                            <video src="Imagenes/F1Porsche2.mp4" controls height="380" width="170"></video>
+                            <img src="Imagenes/F1_3.jpg" alt="Formula 1" height="170" width="380">
+                            <img src="Imagenes/F1Vintage.jpg" alt="Formula Historics" height="170" width="380">
+                            <img src="Imagenes/F1_4.jpg" alt="USGP" height="270" width="380">
+                        </td>
                         <td>
                             En pandemia me empezo a gustar el tenis, practicarlo mas que nada, mi papa construyo unas raquetas de madera para jugar y poco despues me compraron raquetas de verdad, pero deje de practicarlo por que no tenia con quien jugarlo.
                             <br>
